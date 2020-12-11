@@ -24,6 +24,12 @@
 			case "insert_salelist" :
 				%><%@ include file="page/insert_salelist.jsp" %><%
 				break;
+			case "insert_shop" :
+				%><%@ include file="page/insert_shop.jsp" %><%
+				break;
+			case "insert_product" :
+				%><%@ include file="page/insert_product.jsp" %><%
+				break;
 			case "lookup_sale_status" :
 				%><%@ include file="page/lookup_sale_status.jsp" %><%
 				break;
